@@ -35,7 +35,7 @@ int main(void)
 	tmp = basic;
 
 	std::cout << std::endl;
-	// make Dog::_brain public.
+	// you should make Dog::_brain public before removing following comments
 	// std::cout << &basic._brain << std::endl;
 	// std::cout << &tmp._brain << std::endl;
 	std::cout << std::endl;
