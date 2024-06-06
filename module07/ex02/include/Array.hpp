@@ -67,7 +67,7 @@ Array<T>	&Array<T>::operator=(const Array &other)
 template<typename T>
 T	&Array<T>::operator[](const unsigned int i)	const
 {
-	if (i > this->_length)
+	if (i >= this->_length)
 		throw (Array<T>::OutOfBound());
 	return (this->_array[i]);
 }
