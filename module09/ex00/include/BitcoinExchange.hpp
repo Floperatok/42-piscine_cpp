@@ -77,6 +77,4 @@ public:
 	};
 };
 
-void		printmap(const std::map<std::string, std::string> &m);
-
 #endif
